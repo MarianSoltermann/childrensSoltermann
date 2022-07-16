@@ -6,11 +6,12 @@
 	<title>Children's clothes</title>
 	<link rel="shortcut icon" href="../images/favicon.png">
     <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <link rel="stylesheet" href="../css/animate.css">
 </head>
 <body>
 <div id="contenedor-grid">
 <div class= "zero">
-	<p>Envíos gratis en compras superiores a $10.000</p>
+	<p class="wow animate__flash" data-wow-duration="2s">Envíos gratis en compras superiores a $10.000</p>
 </div>
 <header class="one">
 	<nav class="botonera">
@@ -80,7 +81,7 @@
 </main>
 
 <section class="four">
-	<nav class="contacto">
+	<nav class="contacto wow animate__slideInUp" data-wow-duration="2s">
 		<ul>
         <li>
 	        <a href="https://instagram.com/" target="_blank">
@@ -108,6 +109,10 @@
 <footer class="five">
 		<p>3 y 6 cuotas sin interés con todas las tarjetas de crédito</p>
 </footer>
+ <script src="../js/wow.min.js"></script>
+              <script>
+              new WOW().init();
+              </script>
 </div>
 </body>
 </html>
